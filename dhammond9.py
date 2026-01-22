@@ -1,4 +1,7 @@
-#git hubtest comment
+def celsiusconversion(Fahrenheit):
+        celsius= (Fahrenheit - 32) * 5/9
+        return celsius
+
 print("Menu")
 print("Option 1: To see a joke")
 print("Option 2: To see your name printed a certain number of times")
@@ -39,9 +42,7 @@ if (y== 4):
         else:
             print("You won! You must be a mind reader")
 if (y == 5):
-    def celsiusconversion(celsius):
-        celsius= F-32 * 5/9
-        return celsius
-F = int(input("Enter today's temperature in Fahrenheit: "))
-output=celsiusconversion(F)
-print("Today's temperature in celsius is ", output, "degrees")
+
+    x = int(input("Enter today's temperature in Fahrenheit: "))
+    output=celsiusconversion(x)
+    print("Today's temperature in celsius is ", output, "degrees")
