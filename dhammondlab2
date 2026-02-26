@@ -1,0 +1,9 @@
+bit1 = int(input("Enter bit1 (0 or 1): "))
+bit2 = int(input("Enter bit2 (0 or 1): "))
+bit3 = int(input("Enter bit3 (0 or 1): "))
+bit4 = int(input("Enter bit4 (0 or 1): "))
+bit5 = int(input("Enter bit5 (0 or 1): "))
+bit6 = int(input("Enter bit6 (0 or 1): "))
+decimal = (bit1 * 32) + (bit2 * 16) + (bit3 * 8) + (bit4 * 4) + (bit5 * 2) + (bit6 * 1)
+
+print ("The decimal equivalent is: ", decimal)
